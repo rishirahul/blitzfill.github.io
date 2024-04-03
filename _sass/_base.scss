@@ -114,12 +114,14 @@ nav:hover {
   margin-bottom: 5em;
 }
 
-$avatar-size: 10em;
+$avatar-len: 20em;
+$avatar-width: 50em;
+$avatar-size: 50em;
 .avatar-image {
   height: auto;
   width: auto;
-  max-height: $avatar-size;
-  max-width: $avatar-size;
+  max-height: $avatar-len;
+  max-width: $avatar-width;
   border-radius: $avatar-size;
   border-style: solid;
   border-width: medium;
