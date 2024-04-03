@@ -1,10 +1,10 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-potato-hacker"
-  spec.version       = "1.0.4"
-  spec.authors       = ["Luiz Eduardo Amaral"]
-  spec.email         = ["luizamaral306@gmail.com"]
+  spec.name          = "blitzfill.com"
+  spec.version       = "1.0.0"
+  spec.authors       = ["Rishi Rahul"]
+  spec.email         = ["rishi@blitzfill.com"]
 
   spec.summary       = %q{A theme based on hackers and potatoes.}
   spec.homepage      = "https://github.com/luxedo/jekyll-theme-potato-hacker"
