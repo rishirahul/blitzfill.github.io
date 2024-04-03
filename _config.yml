@@ -19,6 +19,7 @@ email: "rishi@blitzfill.com"
 description: Consultancy services for trading 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blitzfill.com" # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: blitzfill.com
 
 # ------------------------------------------------------------------------------
 # Custom settings
