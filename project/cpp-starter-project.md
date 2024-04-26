@@ -5,7 +5,8 @@ date:   2016-10-06 12:07:12 -0200
 categories: project 
 layout: project-post
 ---
-###### Contributors: [Rishi Rahul]()
+###### Contributors: [Rishi Rahul](https://blitzfill.com/dropdown/Contributors_Rishi%20Rahul.html)
+###### Github: [cpp-starter-project](https://github.com/rishirahul/cpp-starter-project)
 
 Different C++ projects can adopt various directory structures, each with its own merits. There's no definitive answer to what's right or wrong. However, certain needs, such as automated documentation generation, integration with testing frameworks, and CI/CD automation, are typical across projects.
 
