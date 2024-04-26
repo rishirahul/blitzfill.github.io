@@ -41,7 +41,7 @@ theme_switch: on         # Show color switch (on | off)
 blog: off                 # Show blog tag and post list (on | off)
 research: on                 # Show research tag and post list (on | off)
 project: on                 # Show project tag and post list (on | off)
-tutorial: on                 # Show tutorial tag and post list (on | off)
+tutorial: off                 # Show tutorial tag and post list (on | off)
 avatar: off               # Show avatar (on | off)
 avatar_image: "assets/img/avatar.jpg"
 #avatar_description: "My name is Popotato and I'm a HACKER."
