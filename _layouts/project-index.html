@@ -5,8 +5,9 @@ description: project list
 ---
 <ul>
 {% for project in site.data.projects %}
+{% assign folder = "project/" %}
   <li>
-    <a href="{{ project.url }}">
+    <a href="{{ project.url | prepend: site.baseurl|prepend:folder }}">
       <h4 class="post-title"> {{ project.name }}</h4>
     </a>
 </li>
