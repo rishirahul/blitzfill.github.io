@@ -1,5 +1,5 @@
 ---
 layout: blog-index
-title: My Blog
+title: Blogs
 description: Test page
 ---

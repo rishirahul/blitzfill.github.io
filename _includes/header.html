@@ -19,6 +19,15 @@
               {% if site.blog == true %}
                 <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
               {% endif %}
+              {% if site.research == true %}
+                <li><a href="{{ '/research' | prepend: site.baseurl }}">Research</a></li>
+              {% endif %}
+              {% if site.project == true %}
+                <li><a href="{{ '/project' | prepend: site.baseurl }}">Project</a></li>
+              {% endif %}
+              {% if site.tutorial == true %}
+                <li><a href="{{ '/tutorial' | prepend: site.baseurl }}">Tutorial</a></li>
+              {% endif %}
 
               {% for page in site.dropdown %}
                 <li class="dropdown dropdown-{{ page.dropdown }}">

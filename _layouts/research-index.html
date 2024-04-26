@@ -1,0 +1,15 @@
+---
+layout: page
+title: list of research post 
+description: research list
+---
+<ul>
+{% for research in site.data.research %}
+  <li>
+    <a href="{{ research.url | prepend: site.baseurl }}">
+      <h4 class="post-title"> {{ research.name }}</h4>
+    </a>
+</li>
+{% endfor %}
+<div style="margin-bottom: 22em;"></div>
+</ul>

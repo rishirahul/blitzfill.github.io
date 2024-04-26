@@ -19,8 +19,8 @@ $gray-white:             lighten($gray-base, 100%); // #fff
 $brand-primary:         #1F7F1F;
 $brand-success:         #3F7F3F;
 $brand-info:            #3F7F7F;
-$brand-warning:         #7F6F3F;
-$brand-danger:          #7F3F3F;
+$brand-warning:         #ad8b27;
+$brand-danger:          #967b0e;
 
 // Icons colors
 $github-color:          #666;
@@ -56,10 +56,10 @@ $link-hover-decoration: underline;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Source Code Pro", Helvetica, Arial, sans-serif;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif:  "serif","Source Code Pro", Helvetica, Arial, sans-serif;
+$font-family-serif:       "serif",Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-$font-family-monospace:   "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-monospace:   "serif","Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-monospace;
 
 $font-size-base:          15px;

@@ -56,10 +56,10 @@ $link-hover-decoration: underline;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Source Code Pro", Helvetica, Arial, sans-serif;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif:  "serif","Source Code Pro", Helvetica, Arial, sans-serif;
+$font-family-serif:       "serif",Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-$font-family-monospace:   "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-monospace:   "serif","Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-monospace;
 
 $font-size-base:          15px;

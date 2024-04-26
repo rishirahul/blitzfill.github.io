@@ -1,0 +1,15 @@
+---
+layout: page
+title: list of projects 
+description: project list
+---
+<ul>
+{% for project in site.data.projects %}
+  <li>
+    <a href="{{ project.url | prepend: site.baseurl }}">
+      <h4 class="post-title"> {{ project.name }}</h4>
+    </a>
+</li>
+{% endfor %}
+<div style="margin-bottom: 18em;"></div>
+</ul>
