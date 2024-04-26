@@ -6,7 +6,7 @@ description: project list
 <ul>
 {% for project in site.data.projects %}
   <li>
-    <a href="{{ project.url | prepend: site.baseurl }}">
+    <a href="{{ project.url }}">
       <h4 class="post-title"> {{ project.name }}</h4>
     </a>
 </li>
